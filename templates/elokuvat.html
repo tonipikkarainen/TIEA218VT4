@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Elokuvat{% endblock title%}
+{% block content %}
+
+<h1>Videovuokraamo</h1>
+
+<h2>Kaikki elokuvat</h2>
+<p>Järjestä:</p>
+  <p> <a href="{{ url_for('elokuvat') }}?valittu=elokuva">Aakkosjärjestykseen</a>
+  <a href="{{ url_for('elokuvat') }}?valittu=julkaisuvuosi">Julkaisuvuoden mukaan</a>
+  <a href="{{ url_for('elokuvat') }}?valittu=arvio">Arvioiden mukaan</a>
+  <a href="{{ url_for('elokuvat') }}?valittu=vuokraLkm">Vuokrausten lukumäärän mukaan</a></p>
+  <table>
+  <tr>
+      <td>Elokuva</td>
+      <td>Vuokrausten lukumäärä</td>
+  </tr>
+  {% for p in elokuvat %}
+   <tr> 
+      <td><a href="{{ url_for('muokkaaelokuvaa') }}?eid={{ p['elokuvaid'] }} "> {{ p['elokuva'] }} </td></a> 
+      <td>{{ p['vuokraLkm'] }}</td>
+   </tr>  
+  {% endfor %}
+  </table>
+
+{% endblock content %} 

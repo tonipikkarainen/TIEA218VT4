@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Videovuokraamo{% endblock title%}
+{% block content %}
+
+<h1>Videovuokraamo</h1>
+
+<h2>Kaikki vuokraukset</h2>
+  <!--<table>
+  {% for p in vuokraukset %}
+   <tr> 
+      <td>{{ p['elokuva'] }} </td> 
+      <td>{{ p['jasen'] }}</td> 
+      <td>{{ p['vpvm'] }} </td> 
+      <td>{{ p['ppvm'] }}</td> 
+   </tr>  
+  {% endfor %}
+  </table>-->
+  <!--{% for p in vuokraukset %}
+  <p>{{ p['jasen'] }}</p>
+  {% endfor %}-->
+  <ul>
+  {% for p in vuokraukset %}
+        {% if p['jasen']!= edellinen%}
+        <li>  {{ p['jasen'] }}
+            <ul>
+               {% if p['vpvm'] %} 
+                <li>{{p['elokuva']}} {{ p['vpvm'] }} {{ p['ppvm'] }}</li>
+               {% endif %} 
+            </ul>
+        </li> 
+        {% else %}
+        <li class="hidePallo">  
+            <ul>
+                {% if p['vpvm'] %} 
+                <li>{{p['elokuva']}} {{ p['vpvm'] }} {{ p['ppvm'] }}</li>
+                {% endif %} 
+            </ul>
+        </li> 
+        {% endif %}
+       {% set edellinen = p['jasen'] %}
+  {% endfor %}
+   </ul>
+{% endblock content %} 

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Muokkaa elokuvaa{% endblock title%}
+{% block content %}
+
+
+<h1>Muokkaa elokuvaa: {{elokuvanNimi}}</h1>
+
+<form action="{{request.base_url}}" method="post">
+
+<p><label for="lajityypit">Lajityypit: </label>
+<select id="lajityypit" name="lajityyppi">
+  {% set i = 0 %}
+  {% for p in lajityypit %}
+        {% if i==0 %}
+        <option selected="selected" value="{{ p['lajiID'] }}">{{ p['lajityyppi'] }} </option>
+        {% else %}
+        <option  value="{{ p['lajiID'] }}">{{ p['lajityyppi'] }} </option>
+        {% endif %}
+        {% set i = i+1 %}
+  {% endfor %}
+
+</select>
+</p>
+
+
+<p><label>Nimi: <input type="text" name="nimi"  /></label></p> 
+<p><label>Julkaisuvuosi: <input type="text" name="julkaisuvuosi" /></label></p>
+<p><label>Vuokrahinta: <input type="text" name="vuokrahinta" /></label></p>
+<p><label>Arvio: <input type="text" name="arvio" /></label></p>
+
+<input type="hidden" name="eid" value="{{ eid }}"/>
+
+<input type="submit" name="laheta" value="Muokkaa elokuvaa" />
+<input type="submit" name="laheta" value="Poista elokuva" />
+</form>
+<p>{{virhe}}</p>
+
+{% endblock content %} 

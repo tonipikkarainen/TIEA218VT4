@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Uusi vuokraus{% endblock title%}
+{% block content %}
+
+
+<h1>Uusi vuokraus</h1>
+
+<form action="{{request.base_url}}" method="post">
+
+<p><label for="elokuvat">Elokuvat: </label>
+<select id="elokuvat" name="elokuva">
+  {% set i = 0 %}
+  {% for p in elokuvat %}
+        {% if i==0 %}
+        <option selected="selected" value="{{ p['eid'] }}">{{ p['elokuva'] }} </option>
+        {% else %}
+        <option  value="{{ p['eid'] }}">{{ p['elokuva'] }} </option>
+        {% endif %}
+        {% set i = i+1 %}
+  {% endfor %}
+
+</select>
+</p>
+    {% set j = 0 %}
+<p><label for="jasenet">Jasenet: </label>
+<select id="jasenet" name="jasen">
+   
+  {% for p in jasenet %}
+        {% if j==0 %}
+        <option selected="selected" value="{{ p['jid'] }}">{{ p['jasen'] }} </option>
+        {% else %}
+        <option  value="{{ p['jid'] }}">{{ p['jasen'] }} </option>
+        {% endif %}
+        {% set j = j+1 %}
+  {% endfor %}
+
+</select>
+</p>
+
+<p><label>Vuokrauspäivämäärä (vvvv-kk-pp): <input type="text" name="vuokraPvm" /></label></p> 
+<p><label>Palautuspäivämäärä(valinnainen)(vvvv-kk-pp): <input type="text" name="palPvm" /></label></p>
+<input type="submit" name="laheta" value="Luo uusi vuokraus" />
+</form>
+<p>{{virhe}}</p>
+
+{% endblock content %} 

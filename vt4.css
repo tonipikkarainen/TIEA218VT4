@@ -1,0 +1,13 @@
+/*
+vt4 tyylitiedosto
+*/
+
+a{
+    text-decoration:none;
+    padding-right:2em;
+    /*padding-left:2em;*/
+}
+
+.hidePallo{
+    list-style-type:none;
+}

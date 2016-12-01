@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kirjaudu</title>
+  <link href="" rel="StyleSheet" type="text/css" />
+</head>
+
+<body>
+
+<h1>Kirjaudu</h1>
+<form action="{{request.base_url}}" method="post">
+<p>
+<label>Anna tunnus: <input type="text" name="tunnus" /></label>
+</p>
+{% with errors = get_flashed_messages(category_filter=["tError"]) %}
+{% if errors %}
+<div class="alert-message block-message error">
+  <ul>
+    {%- for msg in errors %}
+    <li>{{ msg }}</li>
+    {% endfor -%}
+  </ul>
+</div>
+{% endif %}
+{% endwith %}
+<p>
+<label>Anna salasana: <input type="password" name="salasana" /></label>
+</p>
+{% with errors = get_flashed_messages(category_filter=["sError"]) %}
+{% if errors %}
+<div class="alert-message block-message error">
+  <ul>
+    {%- for msg in errors %}
+    <li>{{ msg }}</li>
+    {% endfor -%}
+  </ul>
+</div>
+{% endif %}
+{% endwith %}
+<p>
+<input type="submit" name="laheta" value="Kirjaudu" />
+</p>
+</form>
+
+</body>
+
+</html>

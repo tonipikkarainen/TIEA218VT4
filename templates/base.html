@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://users.jyu.fi/~totapikk/cgi-bin/vt4/vt4.css" />
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+    <header><nav>
+    <a href="{{ url_for('etusivu') }}">Etusivu</a>
+    <a href="{{ url_for('uusivuokraus') }}">Lisää uusi vuokraus</a>
+    <a href="{{ url_for('elokuvat') }}">Elokuvat</a>
+    <a href="{{ url_for('uusielokuva') }}">Lisää uusi elokuva</a>
+    <a href="{{ url_for('logout') }}"><input type="button" value="logout"/></a>
+    </nav></header>
+{# Määritellään lohkolle nimi (content) ja tämän nimen perusteella toinen template voi korvata tähän sisältöä #}
+    {% block content %} 
+    {% endblock content%}
+    <footer>
+    ... ... .. footer-alue
+    </footer>
+</body>
+</html>

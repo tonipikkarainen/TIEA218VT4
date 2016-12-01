@@ -1,0 +1,150 @@
+DEBUG:root:ei valittua
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:33:17] "GET / HTTP/1.1" 200 -
+DEBUG:root:ei valittua
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:33:23] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:33:28] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:33:46] "GET /elokuvat?valittu=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:34:01] "GET /elokuvat?valittu=julkaisuvuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:34:03] "GET /elokuvat?valittu=elokuva HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:21] "GET /elokuvat?valittu=elokuva HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:27] "GET /elokuvat?valittu=julkaisuvuosi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:29] "GET /elokuvat?valittu=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:30] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:34] "GET /elokuvat?valittu=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:35:36] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+DEBUG:root:ei valittua
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:ei valittua
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:ei valittua
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:near "=": syntax error
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:19] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:23] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:29] "GET /elokuvat HTTP/1.1" 200 -
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:31] "GET /elokuvat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:34] "GET /elokuvat?valittu=arvio HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:54:36] "GET /elokuvat?valittu=vuokraLkm HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 630-129-046
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2016 15:55:57] "GET /elokuvat HTTP/1.1" 200 -
+DEBUG:root:ei onnistunut elokuvalista
+DEBUG:root:local variable 'sql' referenced before assignment
+INFO:werkzeug: * Detected change in 'W:\\cgi-bin\\vt4\\vt4.py', reloading
+INFO:werkzeug: * Restarting with stat
+ERROR:vt4:Exception on /uusivuokraus [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/totapikk/html/cgi-bin/vt4/vt4.py", line 31, in decorated
+    return f(*args, **kwargs)
+  File "/home/totapikk/html/cgi-bin/vt4/vt4.py", line 338, in uusivuokraus
+    if validoiPvm(vuokraPvm):
+  File "/home/totapikk/html/cgi-bin/vt4/vt4.py", line 121, in validoiPvm
+    if datetime.datetime.strptime(text, '%Y-%m-%d') < datetime.datetime.now():
+  File "/usr/lib64/python2.7/_strptime.py", line 325, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+DEBUG:root:ei mennyt
+DEBUG:root:<class 'sqlite3.IntegrityError'>
+DEBUG:root:ei mennyt
+DEBUG:root:<class 'sqlite3.IntegrityError'>
